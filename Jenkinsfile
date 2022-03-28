@@ -14,7 +14,7 @@ pipeline {
                   
             }
           }
-  
+     }
 def swiftLint(){
   FAILED_AT_STAGE = 'Swift Lint'
          withEnv(["HOME=${env.WORKSPACE}"]) {
